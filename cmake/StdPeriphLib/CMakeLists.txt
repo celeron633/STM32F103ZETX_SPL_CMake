@@ -45,7 +45,6 @@ target_sources(StdPeriphLib INTERFACE
     ../../FwLib/stm32f10x_tim.c
     ../../FwLib/stm32f10x_usart.c
     ../../FwLib/stm32f10x_wwdg.c
-    ../../User/main.c
     ../../User/stm32f10x_it.c
 )
 

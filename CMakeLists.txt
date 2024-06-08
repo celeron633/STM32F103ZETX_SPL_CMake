@@ -48,6 +48,9 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    ./System/syscalls.c
+    ./System/sysmem.c
+    ./User/main.c
 )
 
 # Add include paths
